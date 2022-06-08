@@ -35,7 +35,7 @@ client.on("message", async msg => {
           return text
       } try {
           var evaled = clean(await eval(code))
-          if(evaled.match(new RegExp(`${client.token}`, "g"))) evaled.replace(client.token, "yasaklı")
+          if(evaled.match(new RegExp(`${client.token}`, "g"))) evaled.replace(client.token, "mavera aptal botçuların böyle bir komut koyacağını bildiği için yasakladı")
           msg.channel.send(`${evaled.replace(client.token, "mavera aptal botçuların böyle bir komut koyacağını bildiği için yasakladı")}`, { code: "js", split: true })
       } catch(maverr) {
           msg.channel.send(maverr, { code: "js", split: true })
