@@ -1,4 +1,4 @@
-const { Client, MessageEmbed } = require("discord.js")
+const { Client, MessageEmbed } = require("discord.js") // 40 STAR GELDIGINDE DAHA GELISMISINI PAYLASACAGIM SIMDILIK SIZI IDARE EDER BIR BOT PAYLASTIM SONRA NEDEN DEDIGIN HIZDA DEGIL DIYE SORMAYIN ;D
 const moment = require("moment")
 const mongoose = require("mongoose")
 const { DATABASE, PREFIX, READY, DEV, MONGOOSE, GUILD } = require("../settings.json") 
