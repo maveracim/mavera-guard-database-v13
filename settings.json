@@ -7,4 +7,6 @@
     "MONGOOSE":"mongodb+srv://YOUR_MONGO_NAME:YOUR_MONGO_PASSWORD@cluster0.0t0hi.mongodb.net/YOUR_DATABASE_NAME?retryWrites=true&w=majority",
     "GUILD":"",
     "GUILD_GUARD":true,
+    "DATABASE_SUPPORT":[],
+    "GUARD_SUPPORT":[]
 }
