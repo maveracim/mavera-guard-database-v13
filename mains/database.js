@@ -1,7 +1,7 @@
 const { Client, MessageEmbed } = require("discord.js")
 const moment = require("moment")
 const mongoose = require("mongoose")
-const { DATABASE, PREFIX, READY, DEV, MONGOOSE, GUILD, helper1, helper2 } = require("../settings.json") 
+const { DATABASE, PREFIX, READY, DEV, MONGOOSE, GUILD } = require("../settings.json") 
 const client = new Client()
 const { MessageButton } = require("discord-buttons")
 require("discord-buttons")(client)
