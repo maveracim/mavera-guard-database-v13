@@ -1,5 +1,5 @@
 const { Client, MessageEmbed } = require("discord.js") // 40 STAR GELDIGINDE DAHA GELISMISINI PAYLASACAGIM SIMDILIK SIZI IDARE EDER BIR BOT PAYLASTIM SONRA NEDEN DEDIGIN HIZDA DEGIL DIYE SORMAYIN ;D
-const moment = require("moment")
+const moment = require("moment")//bot v12 40 starda v13 halini paylaşacağım ama bu sizi idare eder derecede bir bot
 const mongoose = require("mongoose")
 const { DATABASE, PREFIX, READY, DEV, MONGOOSE, GUILD } = require("../settings.json") 
 const client = new Client()
